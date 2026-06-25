@@ -43,8 +43,7 @@ body {
   object-fit: cover;
   object-position: center center;
   z-index: 0;
-  opacity: 0.9;
-  mix-blend-mode: screen;
+  opacity: 0.55;
   pointer-events: none;
   user-select: none;
 }
