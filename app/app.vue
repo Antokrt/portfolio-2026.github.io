@@ -1,7 +1,7 @@
 <template>
   <div class="sky">
     <NuxtRouteAnnouncer />
-    <img src="/cloud.png" class="cloud-bg" alt="" aria-hidden="true" />
+    <NuxtImg src="/cloud.png" class="cloud-bg" alt="" aria-hidden="true" />
     <NuxtPage />
   </div>
 </template>

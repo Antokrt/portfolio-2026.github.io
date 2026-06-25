@@ -3,10 +3,12 @@
 
     <!-- Image -->
     <div class="card-img-wrap">
-      <img
+      <NuxtImg
         :src="`https://picsum.photos/seed/${slug}/800/600`"
         :alt="title"
         loading="lazy"
+        width="800"
+        height="600"
       />
     </div>
 
