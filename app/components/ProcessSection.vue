@@ -167,7 +167,7 @@ const steps = [
   flex: 1;
   min-width: 0;
   position: relative;
-  padding-right: 48px;
+  padding-right: 72px;
 }
 
 .step.is-last {
@@ -177,7 +177,7 @@ const steps = [
 /* ── Cercle + track ── */
 .step-top {
   position: relative;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 /* Track horizontal vers l'étape suivante */
@@ -185,7 +185,7 @@ const steps = [
   content: '';
   position: absolute;
   left: 52px;
-  right: -48px;
+  right: -72px;
   top: 22px;
   height: 2px;
   background: linear-gradient(to right, rgba(74, 144, 226, 0.45), rgba(74, 144, 226, 0.08));
@@ -212,7 +212,7 @@ const steps = [
 
 /* ── Contenu ── */
 .step-body {
-  padding-right: 12px;
+  padding-right: 0;
 }
 
 .step-icon {
@@ -261,9 +261,9 @@ const steps = [
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 16px;
+    gap: 20px;
     padding-right: 0;
-    padding-bottom: 28px;
+    padding-bottom: 36px;
     position: relative;
   }
 
@@ -276,7 +276,7 @@ const steps = [
     left: 21px;
     right: auto;
     top: 44px;
-    bottom: -28px;
+    bottom: -36px;
     width: 2px;
     height: auto;
     background: linear-gradient(to bottom, rgba(74,144,226,0.45), rgba(74,144,226,0.08));
